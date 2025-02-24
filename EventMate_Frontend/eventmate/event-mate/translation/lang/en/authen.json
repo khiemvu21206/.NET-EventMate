@@ -1,0 +1,21 @@
+{
+    "login-title": "Login Page",
+    "welcome-message": "Welcome back, please log in!",
+    "otp-title" : "OTP Authentication",
+    "otp-input-lable":"Enter the OTP sent to",
+    "otp-input-placeholder":"Enter the OTP",
+    "otp-note":"Note: Please check all email folders (Inbox, Promotions, Spam,...)",
+    "otp-missing":"You didn't receive OTP?",
+    "resend-otp":"Resend OTP",
+    "continue":"Continue",
+    
+    "password-validation": {
+        "length": "Password must be between 8 and 32 characters.",
+        "lowercase": "Password must contain at least one lowercase letter.",
+        "uppercase": "Password must contain at least one uppercase letter.",
+        "number": "Password must contain at least one number.",
+        "specialChar": "Password must contain at least one special character.",
+        "match": "The confirmation password must match the original password."
+    }
+  }
+  

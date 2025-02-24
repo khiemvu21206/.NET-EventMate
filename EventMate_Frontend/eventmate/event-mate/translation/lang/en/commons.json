@@ -1,0 +1,5 @@
+{
+  "otp-sent-successfully": "OTP sent successfully. Please check your email.",
+  "otp-invalid": "Invalid OTP. Please try again.",
+  "otp-expired": "OTP has expired. Please resend OTP."
+}

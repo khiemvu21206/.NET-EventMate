@@ -1,0 +1,4 @@
+{
+     "otp-invalid": "OTP không hợp lệ. Vui lòng thử lại.",
+   "otp-expired": "OTP đã hết hạn. Vui lòng gửi lại OTP."
+}
