@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "@svgr/webpack": "^8.1.0",
-    "heroicon": "^0.0.2"
-  }
-}
