@@ -24,7 +24,8 @@
         "@typescript-eslint/no-misused-promises": ["error", { "checksVoidReturn": false }],
         "unused-imports/no-unused-imports": "warn",
         "unused-imports/no-unused-vars": ["off", { "argsIgnorePattern": "^_" }],
-        "prettier/prettier": "error"
+        "prettier/prettier": "error",
+        "@next/next/no-img-element":"off"
         // "import/order": [
         //     "off",
         //     {
