@@ -1,0 +1,159 @@
+.container {
+    padding: 24px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.activeCount {
+    background-color: #E5E7EB;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 14px;
+    color: #6B7280;
+}
+
+.filters {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+.filterGroup {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableHeader {
+    text-align: left;
+    padding: 12px;
+    border-bottom: 1px solid #E5E7EB;
+    color: #6B7280;
+    font-weight: 500;
+}
+
+.tableRow {
+    border-bottom: 1px solid #E5E7EB;
+}
+
+.tableCell {
+    padding: 12px;
+}
+
+.customer {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.customerAvatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.status {
+    padding: 4px 12px;
+    border-radius: 16px;
+    font-size: 14px;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.statusOpen {
+    background-color: #FEF3C7;
+    color: #D97706;
+}
+
+.statusInProgress {
+    background-color: #DBEAFE;
+    color: #2563EB;
+}
+
+.statusResolved {
+    background-color: #D1FAE5;
+    color: #059669;
+}
+
+.statusClosed {
+    background-color: #E5E7EB;
+    color: #6B7280;
+}
+
+.priority {
+    padding: 4px 12px;
+    border-radius: 16px;
+    font-size: 14px;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.priorityHigh {
+    background-color: #FEE2E2;
+    color: #DC2626;
+}
+
+.priorityMedium {
+    background-color: #FEF3C7;
+    color: #D97706;
+}
+
+.priorityLow {
+    background-color: #D1FAE5;
+    color: #059669;
+}
+
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.paginationInfo {
+    color: #6B7280;
+}
+
+.paginationControls {
+    display: flex;
+    gap: 8px;
+}
+
+.paginationButton {
+    padding: 8px 16px;
+    border: 1px solid #E5E7EB;
+    border-radius: 8px;
+    background: white;
+    cursor: pointer;
+}
+
+.paginationButtonActive {
+    background-color: #2563EB;
+    color: white;
+    border: none;
+}
+
+.statusText {
+    padding: 4px 12px;
+    border-radius: 16px;
+    font-size: 14px;
+    font-weight: 500;
+}

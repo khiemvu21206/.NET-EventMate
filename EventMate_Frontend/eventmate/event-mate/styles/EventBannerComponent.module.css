@@ -1,0 +1,40 @@
+.parentContainer {
+    position: relative;
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+    overflow: visible;
+    padding: 0 20px;
+}
+
+.sliderContainer {
+    overflow: hidden;
+    width: 100%;
+}
+
+.track {
+    display: flex;
+    width: 100%;
+}
+
+.banner {
+    width: 100%;
+    height: 400px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: #000;
+    flex-shrink: 0;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}

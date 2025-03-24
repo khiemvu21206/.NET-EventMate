@@ -1,0 +1,39 @@
+{
+    // Configuration for JavaScript files
+    "plugins": ["@typescript-eslint", "unused-imports", "testing-library"],
+    "extends": [
+        "next/core-web-vitals",
+        "plugin:prettier/recommended",
+        "plugin:testing-library/react"
+    ],
+    "parserOptions": {
+        "project": "./tsconfig.json"
+    },
+    "ignorePatterns": ["**/*/*.js"],
+    "overrides": [
+        {
+            "files": ["**/__tests__/**/*.[jt]s?(x)', '**/?(*.)+(spec|test).[jt]s?(x)"],
+            "extends": ["plugin:testing-library/react"]
+        }
+    ],
+    "rules": {
+        "@typescript-eslint/comma-dangle": "off", // Avoid conflict rule between Eslint and Prettier
+        "@typescript-eslint/consistent-type-imports": "off",
+        "@typescript-eslint/no-unused-vars": "off",
+        "@typescript-eslint/no-shadow": "off",
+        "@typescript-eslint/no-misused-promises": ["error", { "checksVoidReturn": false }],
+        "unused-imports/no-unused-imports": "warn",
+        "unused-imports/no-unused-vars": ["off", { "argsIgnorePattern": "^_" }],
+        "prettier/prettier": "error"
+        // "import/order": [
+        //     "off",
+        //     {
+        //         "groups": ["builtin", "external", "internal", "parent", "sibling", "index"],
+        //         "newlines-between": "always",
+        //         "alphabetize": { "order": "asc" }
+        //     }
+        // ],
+        // // sort named imports within an import statement
+        // "sort-imports": ["off", { "ignoreDeclarationSort": true }]
+    }
+}

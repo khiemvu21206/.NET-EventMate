@@ -1,0 +1,12 @@
+{
+    "validate-phone-required":"Số điện thoại không được để trống",
+    "validate-phone-failed":"Số điện thoại không đúng định dạng",
+    "validate-password-required": "Mật khẩu không được để trống",
+    "validate-email-failed": "Email phải đúng định dạng",
+    "validate-company-required": "Tên công ty không được để trống",
+    "validate-address-required": "Địa chỉ không được để trống",
+    "validate-file-type": "Loại file không hợp lệ. Vui lòng tải lên file hợp lệ.",
+
+    "otp-invalid": "OTP không hợp lệ. Vui lòng thử lại.",
+    "otp-expired": "OTP đã hết hạn. Vui lòng gửi lại OTP."
+}

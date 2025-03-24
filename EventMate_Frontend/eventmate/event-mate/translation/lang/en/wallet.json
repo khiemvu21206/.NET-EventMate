@@ -1,0 +1,8 @@
+{
+    "transaction-title" : "Transaction History",
+    "transaction-createAt" : "Create At",
+    "transaction-amount" : "Amount",
+    "transaction-status" : "Status",
+    "transaction-type" : "Type",
+    "transaction-method" : "Method"
+}

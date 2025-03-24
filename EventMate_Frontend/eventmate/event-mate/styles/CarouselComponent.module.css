@@ -1,0 +1,72 @@
+.parentContainer {
+    position: relative;
+    width: calc(2 * 620px); /* 2 banners hiển thị cùng lúc */
+    margin: 0 auto;
+    overflow: visible;
+  }
+  
+  .sliderContainer {
+    overflow: hidden;
+  }
+  
+  .track {
+    display: flex;
+  }
+  
+  .banner {
+    width: 600px;
+    height: 300px;
+    background-color: #ddd;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: #000;
+    margin-right: 20px;
+    flex-shrink: 0;
+  }
+  
+  .carouselArrow {
+    font-size: 2rem;
+    cursor: pointer;
+    color: #333;
+    user-select: none;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+    background: #fff;
+    padding: 10px 5px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .leftArrow {
+    left: -60px;
+  }
+  
+  .rightArrow {
+    right: -40px;
+  }
+  
+  .dotsContainer {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    margin-top: 20px;
+    margin-right: 20px;
+  }
+  
+  .dot {
+    width: 10px;
+    height: 10px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .dotActive {
+    background-color: #000;
+  }
+  

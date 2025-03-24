@@ -1,0 +1,28 @@
+.parentContainer {
+    position: relative;
+    width: calc(1 * 1240px);
+    /* 2 banners hiển thị cùng lúc */
+    margin: auto;
+    overflow: visible;
+}
+
+.sliderContainer {
+    overflow: hidden;
+}
+
+.track {
+    display: flex;
+}
+
+.banner {
+    width: 1220px;
+    height: 200px;
+    background-color: #ddd;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: #000;
+    flex-shrink: 0;
+}

@@ -1,0 +1,14 @@
+{
+    "validate-phone-required":"Phone number is required",
+    "validate-phone-failed":"Invalid phone number",
+    "validate-password-required": "Password must not be empty",
+    "validate-password-failed": "Password is invalid. Please check again !",
+    "validate-email-failed": "Email must be correct format",
+    "validate-email-required": "Email must not be empty",
+    "validate-company-required": "Company name is required",
+    "validate-address-required": "Address is required",
+    "validate-file-type": "Invalid file type. Please upload a valid file type.",
+    
+    "otp-invalid": "Invalid OTP. Please try again.",
+    "otp-expired": "OTP has expired. Please resend OTP."
+}

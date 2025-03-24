@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\khiem\Documents\GitHub\EM_EventMate\EventMate_BE\EventMate_WebAPI\bin\Release\net8.0\publish\</_PublishTargetUrl>
+    <History>True|2025-03-11T12:50:08.1342181Z||;True|2025-02-25T18:40:49.7271311+07:00||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

@@ -1,41 +1,33 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# dependencies
-/node_modules
-/.pnp
-.pnp.*
-.yarn/*
-!.yarn/patches
-!.yarn/plugins
-!.yarn/releases
-!.yarn/versions
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+.vs/
 
-# testing
-/coverage
+FoodDeliver_API/FoodDeliver_API/appsettings.json
+/FoodDeliver_API/FoodDeliver_API/Migrations
+.gradle/
+/TimelessCore_Backend/TimelessCore_Backend/appsettings.json
+/TimelessCore_Backend/TimelessCore_Backend/appsettings.json
+/TimelessCore_Backend/TimelessCore_Backend/appsettings.Development.json
 
-# next.js
-/.next/
-/out/
+node_modules/
 
-# production
-/build
+appsettings.json
 
-# misc
-.DS_Store
-*.pem
 
-# debug
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-.pnpm-debug.log*
 
-# env files (can opt-in for committing if needed)
-.env*
-
-# vercel
-.vercel
-
-# typescript
-*.tsbuildinfo
-next-env.d.ts
+/EventMate_BE/EventMate_WebAPI/appsettings.json
+/EventMate_BE/EventMate_WebAPI/appsettings.Development.json

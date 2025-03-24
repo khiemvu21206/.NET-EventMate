@@ -1,0 +1,8 @@
+{
+    "transaction-title" : "Lịch sử giao dịch",
+    "transaction-createAt" : "Ngày tạo",
+    "transaction-amount" : "Số tiền",
+    "transaction-status" : "Trạng thái",
+    "transaction-type" : "Loại",
+    "transaction-method" : "Phương thức"
+}

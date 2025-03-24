@@ -1,0 +1,84 @@
+.parentContainer {
+  position: relative;
+  /* Hiển thị 4 banner: mỗi banner 300px + gap 20px = 320px */
+  width: calc(4 * 320px);
+  margin: 0 auto;
+  overflow: visible;
+}
+
+.sliderContainer {
+  overflow: hidden;
+}
+
+.track {
+  display: flex;
+}
+
+.banner {
+  position: relative; /* Để có thể đặt .topBadge bên trong */
+  width: 300px;
+  height: 200px;
+  background-color: #ddd;
+  border-radius: 10px;
+  margin-right: 20px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bannerContent {
+  font-size: 1.2rem;
+  color: #000;
+  text-align: center;
+  padding: 10px;
+}
+
+/* 
+  .topBadge hiển thị số Top (1, 2, 3) bên trong banner:
+  - Ở góc trên/trái banner hoặc góc trên/phải tùy chỉnh
+  - Kích thước, màu sắc tùy biến
+*/
+.topBadge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 40px;
+  height: 40px;
+  background-color: #27ae60;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.4rem;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  z-index: 2;
+}
+
+/* Mũi tên chuyển slide */
+.carouselArrow {
+  font-size: 2rem;
+  cursor: pointer;
+  color: #333;
+  user-select: none;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 3;
+  background: #fff;
+  padding: 10px 5px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.leftArrow {
+  left: -60px;
+}
+
+.rightArrow {
+  right: -40px;
+}

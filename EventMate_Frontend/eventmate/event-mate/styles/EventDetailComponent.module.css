@@ -1,0 +1,122 @@
+/* EventDetailComponent.module.css */
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 50px 200px;
+  }
+  
+  .leftColumn {
+    flex: 2;
+    margin-right: 20px;
+  }
+  
+  .rightColumn {
+    flex: 1;
+  }
+  
+  .section {
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .section h2 {
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .section hr {
+    margin-bottom: 20px;
+  }
+  
+  .section h3 {
+    font-size: 2rem;
+    font-weight: 800;
+    color: #1a1a1a;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .eventImage {
+    border: 1px solid #ccc;
+    padding: 0;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 8px;
+    min-height: 400px;
+    overflow: hidden;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .eventImage img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  }
+  
+  .organization {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .organizationImage {
+    width: 120px;
+    height: 120px;
+    border: 1px solid #ccc;
+    margin-right: 20px;
+    text-align: center;
+    line-height: 80px;
+    font-weight: bold;
+    border-radius: 8px;
+    background-color: #ffffff;
+  }
+  
+  .organization h4 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #2c3e50;
+    margin-bottom: 10px;
+  }
+  
+  .eventInfo {
+    height: 300px;
+  }
+  
+  .eventInfo h3 {
+    font-size: 2rem;
+    font-weight: 800;
+    color: #1a1a1a;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .advertisement {
+    padding: 0;
+    text-align: center;
+    font-weight: bold;
+    min-height: 600px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .advertisement img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    border-radius: 8px;
+  }
+  

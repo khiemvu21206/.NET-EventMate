@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35201.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventMate_Service", "EventMate_Service\EventMate_Service.csproj", "{189EA06B-9524-4F23-8EE0-A0B911093DD9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eventmate_Data", "Eventmate_Data\Eventmate_Data.csproj", "{78DB605C-6385-4D0E-BDE3-60A6D124920B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventMate_Common", "EventMate_Common\EventMate_Common.csproj", "{CFD52259-A457-4CFB-B842-1D29186D8825}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventMate_WebAPI", "EventMate_WebAPI\EventMate_WebAPI.csproj", "{FFFBFF5D-7A87-428E-B465-61A6BFE038B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventMate_UnitTest", "EventMate_UnitTest\EventMate_UnitTest.csproj", "{90E08E55-032C-454B-902D-39D5F6A91828}"
+	ProjectSection(ProjectDependencies) = postProject
+		{189EA06B-9524-4F23-8EE0-A0B911093DD9} = {189EA06B-9524-4F23-8EE0-A0B911093DD9}
+		{78DB605C-6385-4D0E-BDE3-60A6D124920B} = {78DB605C-6385-4D0E-BDE3-60A6D124920B}
+		{CFD52259-A457-4CFB-B842-1D29186D8825} = {CFD52259-A457-4CFB-B842-1D29186D8825}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{189EA06B-9524-4F23-8EE0-A0B911093DD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{189EA06B-9524-4F23-8EE0-A0B911093DD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{189EA06B-9524-4F23-8EE0-A0B911093DD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{189EA06B-9524-4F23-8EE0-A0B911093DD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78DB605C-6385-4D0E-BDE3-60A6D124920B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78DB605C-6385-4D0E-BDE3-60A6D124920B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78DB605C-6385-4D0E-BDE3-60A6D124920B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78DB605C-6385-4D0E-BDE3-60A6D124920B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFD52259-A457-4CFB-B842-1D29186D8825}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFD52259-A457-4CFB-B842-1D29186D8825}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFD52259-A457-4CFB-B842-1D29186D8825}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFD52259-A457-4CFB-B842-1D29186D8825}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFFBFF5D-7A87-428E-B465-61A6BFE038B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFFBFF5D-7A87-428E-B465-61A6BFE038B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFFBFF5D-7A87-428E-B465-61A6BFE038B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFFBFF5D-7A87-428E-B465-61A6BFE038B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90E08E55-032C-454B-902D-39D5F6A91828}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90E08E55-032C-454B-902D-39D5F6A91828}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90E08E55-032C-454B-902D-39D5F6A91828}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90E08E55-032C-454B-902D-39D5F6A91828}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B53B131F-E365-45CA-8632-5F4B6649EE4B}
+	EndGlobalSection
+EndGlobal
